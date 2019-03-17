@@ -13,7 +13,7 @@
 		$word[$i] = explode(' ' , fgets($file));
 		$i ++;
 	}
-	fclose('login.txt');
+	fclose('My_logins_site.txt.txt');
 	$logins = [];
 	$passwords = [];
 	$k = 0;
