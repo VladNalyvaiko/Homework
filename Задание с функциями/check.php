@@ -1,8 +1,5 @@
 <?php
 	function check($login , $password , $base_data){
-		echo "<pre>";
-		print_r($base_data);
-		echo "</pre>";
 		$i = 0;
 		$boolean = false;
 		while ($i <= count($base_data['name'])) {
