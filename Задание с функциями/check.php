@@ -11,7 +11,7 @@
 			next($base_data['password']);
 			$i ++;
 		}
-		if ($boolean = false) {
+		if ($boolean == false) {
 			echo "Пользователь не найден";
 		}
 		
